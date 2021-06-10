@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {GoogleLogin, GoogleLogout, useGoogleLogin, useGoogleLogout} from 'react-google-login';
+import Product from '../../components/product';
 
 const Home = () => {
 
@@ -19,7 +20,7 @@ const Home = () => {
             clientId="657238987331-ejs8f81k6le8n4rs2tk7ch0gk69ht4vl.apps.googleusercontent.com"
             buttonText="Logout">
             </GoogleLogout> */}
-            Yo
+            <Product/>
         </div>
     );
 };
